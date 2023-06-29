@@ -50,7 +50,7 @@ module.exports = {
       provider: () => new HDWalletProvider([PrivateKey], `https://weechain1.gw106.oneitfarm.com/`),
       network_id: 7880,       
       chain_id: 1
-    }
+    },
     //
     goerli: {
       provider: () => new HDWalletProvider(mnemonic, `https://goerli.infura.io/v3/${infuraProjectId}`),
